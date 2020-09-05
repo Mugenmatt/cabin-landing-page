@@ -1,68 +1,10 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
 /* ========================================================================================
-                                        HEADER
+                                        IMPORTS
 ======================================================================================== */
 
-.boxBackground1 {
-    background: linear-gradient(to bottom, #1e2fc483, rgba(255, 255, 255, 0.322)), url('/img/cabin/luca-bravo-hFzIoD0F_i8-unsplash.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position-y: bottom;
-    clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 100%, 0 60%);
-}
+@import "default.css";
 
-header {
-    width: 90%;
-    height: 10vh;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.line {
-    width: 75%;
-    margin: auto;
-    color: rgba(255, 255, 255, 0.589);
-    box-shadow: none;
-}
-
-.menu {
-    width: 20%;
-    display: flex;
-    list-style: none;
-    justify-content: space-between;
-}
-
-.menu .itemMenu {
-    color: #fff;
-    font-size: 1.2rem;
-    text-decoration: none;
-}
-
-.menu .itemMenu:hover {
-    color: #efb810;
-    text-decoration: underline;
-}
-
-.logoLink {
-    width: 5%;
-    text-align: center;
-}
-
-.logoHeader {
-    width: 50%;
-}
+@import "header.css";
 
 /* ========================================================================================
                                         MAIN
@@ -94,6 +36,19 @@ main {
 .boxTitle1 {
     text-align: center;
     margin-bottom: 30%;
+    animation: leftBoxTitle1 ease 3s;
+}
+
+@keyframes leftBoxTitle1 {
+    0% {
+        transform: translateX(-600px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 .subtitle1 {
@@ -117,6 +72,17 @@ main {
     justify-content: flex-end;
     align-items: flex-end;
     text-align: center;
+    animation: opacityImgBox1 ease 5s;
+}
+
+@keyframes opacityImgBox1 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .imgCreator {

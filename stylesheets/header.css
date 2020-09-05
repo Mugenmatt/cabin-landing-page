@@ -1,0 +1,78 @@
+/* ========================================================================================
+                                        HEADER
+======================================================================================== */
+
+.boxBackground1 {
+    background: linear-gradient(to bottom, #1e2fc483, rgba(255, 255, 255, 0.322)), url('/img/cabin/luca-bravo-hFzIoD0F_i8-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: bottom;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 100%, 0 60%);
+}
+
+header {
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.line {
+    width: 75%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.589);
+    box-shadow: none;
+}
+
+.menu {
+    width: 20%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu .itemMenu {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    animation: downItemMenu ease 3s;
+}
+
+@keyframes downItemMenu {
+    0% {
+        transform: translateY(-400px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.menu .itemMenu:hover {
+    color: #efb810;
+    text-decoration: underline;
+}
+
+.logoLink {
+    width: 5%;
+    text-align: center;
+    animation: logoFade ease 1.5s;
+}
+
+@keyframes logoFade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.logoHeader {
+    width: 50%;
+}
