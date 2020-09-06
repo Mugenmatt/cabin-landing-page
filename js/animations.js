@@ -45,6 +45,17 @@ gsap.from(".paragraph3", {
     opacity: 0
 })
 
+gsap.from(".imgsBox3", {
+    scrollTrigger: {
+        trigger: ".box3",
+        start: "top center",
+    },
+    stagger: 0.5,
+    delay: 3,
+    duration: 3,
+    opacity: 0
+})
+
 // ------------------- Box4 -------------------
 
 gsap.from(".boxNumberTitle4", {
@@ -111,13 +122,14 @@ gsap.from(".rightVideo", {
     opacity: 0
 })
 
+
 // ------------------- Box6 -------------------
 
 gsap.from(".whatWant", {
     scrollTrigger: {
         trigger: ".box6",
-        start: "top center",
-    },
+        start: "top bottom",
+},
     duration: 3,
     y: -200,
     opacity: 0,
@@ -127,7 +139,7 @@ gsap.from(".whatWant", {
 gsap.from(".story", {
     scrollTrigger: {
         trigger: ".box6",
-        start: "top center",
+        start: "top bottom",
     },
     duration: 3,
     y: -200,

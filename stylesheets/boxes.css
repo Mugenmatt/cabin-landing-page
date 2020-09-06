@@ -63,6 +63,7 @@ main {
     letter-spacing: 5px;
     color: rgba(255, 255, 255);
     margin-top: 10px;
+    font-weight: 300;
 }
 
 .imgBox1 {
@@ -117,22 +118,24 @@ main {
 
 .box2 {
     width: 70%;
-    margin-bottom: 20%;
+    margin-bottom: 7%;
 }
 
 .boxNumberTitle2 {
     text-align: center;
     /* ACA ESTA LA SOLUCION AL PROBLEMA POR EL POSITION:ABSOLUTE DE boxBackground2  */
-    margin-top: 6%;
+    margin-top: 3%;
 }
 
 .number {
     color: #efb810;
     font-size: 5rem;
+    font-weight: 700;
 }
 
 .sub {
     color: #fff;
+    font-weight: 500;
     font-size: 3rem;
 }
 
@@ -140,6 +143,10 @@ main {
     color: #fff;
     font-size: 3rem;
     margin: 5% 0 15% 0;
+}
+
+.fa-chevron-circle-down:hover {
+    color: #efb810;
 }
 
 .paragraphBox2 {
@@ -150,8 +157,14 @@ main {
 
 .paragraph2 {
     color: rgb(80, 56, 11);
-    font-size: 1.1rem;
-    line-height: 1.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    width: 50%;
+    font-weight: 300;
+}
+
+.choose {
+    line-height: 40px;
 }
 
 
@@ -188,11 +201,23 @@ main {
 
 .paragraph3 {
     margin: auto;
-    width: 25%;
+    width: 45%;
     color: #fff;
     text-align: center;
-    font-size: 1.1rem;
-    line-height: 1.5rem;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 3rem;
+}
+
+.imgsBox3 {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    margin-top: 2%;
+}
+
+.supermarket, .medicalAttention {
+    width: 30%;
 }
 
 /* ========================================================================================
@@ -247,6 +272,7 @@ main {
 .personName {
     color: #fff;
     font-size: 1.7rem;
+    font-weight: 500;
 }
 
 .socialMedia {
@@ -289,7 +315,7 @@ main {
 
 .box5 {
     width: 80%;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 .boxNumberTitle5 {
@@ -348,6 +374,7 @@ main {
 .explore {
     color: #ffffff;
     font-size: 2rem;
+    font-weight: 300;
 }
 
 /* ========================================================================================
@@ -376,6 +403,7 @@ main {
     font-size: 3rem;
     color: #fff;
     margin-bottom: 8%;
+    font-weight: 300;
 }
 
 .selection {
@@ -392,6 +420,7 @@ main {
     padding: 20px;
     border: 2px solid #b35600;
     border-radius: 20px;
+    font-weight: 300;
 }
 
 .shareCreate:hover {
@@ -401,6 +430,7 @@ main {
 .or {
     font-size: 4.5rem;
     color: #fff;
+    font-weight: 500;
 }
 
 
@@ -621,7 +651,8 @@ main {
     }
 
     .box2 {
-        margin-bottom: 55%;
+        margin-bottom: 85%;
+        margin-top: 10%;
     }
 
     .sub {
@@ -642,7 +673,7 @@ main {
     }
 
     .box3 {
-        margin-bottom: 34%;
+        margin-bottom: 60%;
     }
 
     .box3 .paragraphBox3 .paragraph3 {
@@ -656,7 +687,7 @@ main {
     }
 
     .box4 {
-        margin-bottom: 55%;
+        margin-bottom: 80%;
     }
 
     .imgBox4 {
@@ -672,7 +703,7 @@ main {
 
     .box5 {
         width: 50%;
-        margin-bottom: 40%;
+        margin-bottom: 90%;
     }
 
     .refImages1, .refImages2 {
