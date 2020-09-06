@@ -189,7 +189,7 @@ main {
 
 .box3 {
     width: 80%;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 
 .boxNumberTitle3 {
@@ -315,7 +315,7 @@ main {
 
 .box5 {
     width: 80%;
-    margin-bottom: 15%;
+    margin-bottom: 20%;
 }
 
 .boxNumberTitle5 {
@@ -441,7 +441,7 @@ main {
 @media (max-width: 1440px) {
 
     .box3 .paragraphBox3 .paragraph3 {
-        width: 29%;
+        width: 50%;
     }
 
     .box3 {
@@ -449,7 +449,7 @@ main {
     }
 
     .box4 {
-        margin-bottom: 23%;
+        margin-bottom: 18%;
     }
     
     .box5 {
@@ -460,28 +460,40 @@ main {
         background-color: #fff;
     }
 
+    .box6::before {
+        height: 140vh;
+    }
+
 }
 
 @media (max-width: 1280px) {
 
+    .box2 {
+        margin-bottom: 9%;
+    }
+
     .box3 .paragraphBox3 .paragraph3 {
-        width: 27%;
+        width: 50%;
     }
 
     .box3 {
-        margin-bottom: 23%;
+        margin-bottom: 17%;
     }
 
      .box4 {
-        margin-bottom: 37%;
+        margin-bottom: 26%;
     }
 
     .box5 {
-        margin-bottom: 36%;
+        margin-bottom: 26%;
     }
 
     .box6 .selection .shareCreate:hover {
         background-color: #fff;
+    }
+
+    .shareCreate {
+        font-size: 2rem;
     }
 
 }
@@ -513,50 +525,64 @@ main {
 
     .boxBackground1 {
         background-position-x: center;
-        background-position-y: -400px
+        background-position-y: -260px
+    }
+
+    .boxTitle1 {
+        margin-bottom: 15%;
     }
 
     .box2 {
-        margin-bottom: 26%;
+        margin-bottom: 10%;
     }
 
     .box2::before {
-        height: 105vh;
+        height: 130vh;
         top: 40%;
         background-position-x: center;
-        background-position-Y: -100px;
+        background-position-Y: 18px;
     }
 
     .box3 .paragraphBox3 .paragraph3 {
-        width: 45%;
+        width: 80%;
+        line-height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .imgsBox3 {
+        display: none;
     }
 
     .box3::before {
-        height: 90vh;
-        top: 120%;
+        height: 125vh;
+        top: 118%;
         background-position-x: center;
-        background-position-Y: -350px;
+        background-position-Y: 20px;
     }
 
     .box4::before {
-        top: 190%;
-        height: 80vh;
+        top: 217%;
+        height: 100vh;
         background-position-x: center;
-        background-position-Y: -200px;
+        background-position-Y: 0px;
     }
 
     .box5::before {
         top: 245%;
-        height: 105vh;
+        height: 195vh;
         background-position-x: center;
-        background-position-Y: -100px;
+        background-position-Y: -40px;
+    }
+
+    .box5 {
+        margin-bottom: 60%;
     }
 
     .box6::before {
         top: 315%;
-        height: 70vh;
+        height: 200vh;
         background-position-x: center;
-        background-position-Y: 430px;
+        background-position-Y: 0px;
     }
 
     .box6 .selection .shareCreate {
@@ -575,11 +601,19 @@ main {
 @media (max-width: 768px) {
 
     .boxBackground1 {
-        background-position-y: -327px;
+        background-position-y: -265px;
     }
 
     .fa-chevron-circle-down {
         margin: 2% 0 5% 0;
+    }
+
+    .box2::before {
+        height: 117vh;
+    }
+
+    .box2 {
+        margin-bottom: 25%;
     }
 
     .paragraphBox2 {
@@ -590,12 +624,16 @@ main {
         margin-top: 0;
     }
 
+    .box3 {
+        margin-bottom: 30%;
+    }
+
     .box3 .paragraphBox3 .paragraph3 {
         width: 70%;
     }
 
     .box3::before {
-        background-position-Y: -80px;
+        background-position-Y: 0px;
     }
 
     .box4::before {
@@ -603,19 +641,27 @@ main {
         background-position-Y: -150px;
     }
 
+    .box4 {
+    }
+
     .box5::before {
-        height: 130vh;
-        background-position-Y: -100px;
+        height: 150vh;
+        background-position-Y: 0px;
+        top:280%
     }
 
     .box5 {
-        margin-bottom: 29%;
+        margin-bottom: 49%;
     }
 
     .box6::before {
-        top: 299%;
-        height: 100vh;
-        background-position-Y: 377px;
+        top: 370%;
+        height: 140vh;
+        background-position-Y: 0;
+    }
+
+    .selection {
+        flex-direction: column;
     }
 
 }
@@ -646,12 +692,12 @@ main {
     }
 
     .box2::before {
-        height: 130vh;
+        height: 105vh;
         background-position-Y: 15px;
     }
 
     .box2 {
-        margin-bottom: 85%;
+        margin-bottom: 60%;
         margin-top: 10%;
     }
 
@@ -663,13 +709,20 @@ main {
         display: none;
     }
 
+    .paragraphBox2 {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 8%;
+    }
+
     .paragraph2 {
-        font-size: 0.8rem;
-        line-height: 1rem;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 1.5rem;
     }
 
     .box3::before {
-        height: 118vh;
+        height: 90vh;
     }
 
     .box3 {
@@ -677,13 +730,16 @@ main {
     }
 
     .box3 .paragraphBox3 .paragraph3 {
-        font-size: 0.8rem;
-        line-height: 1rem;
+        font-size: 1rem;
+        text-align: center;
+        line-height: 1.5rem;
         width: 100%;
     }
 
     .box4::before {
-        height: 137vh;
+        height: 147vh;
+        background-position-y: 0;
+        top: 148%;
     }
 
     .box4 {
@@ -699,11 +755,12 @@ main {
     .box5::before {
         height: 165vh;
         background-position-Y: -42%;
+        top: 200%;
     }
 
     .box5 {
         width: 50%;
-        margin-bottom: 90%;
+        margin-bottom: 67%;
     }
 
     .refImages1, .refImages2 {
@@ -738,8 +795,9 @@ main {
     }
 
     .box6::before {
-        height: 155vh;
-        background-position-Y: -91%;
+        height: 120vh;
+        top: 310%;
+        background-position-Y: 0;
     }
 
     .box6 {
@@ -760,6 +818,68 @@ main {
 
     .box6 .selection .or {
         font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width:360px) {
+
+    .paragraphBox2 {
+        margin-top: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .paragraph2 {
+        line-height: 20px;
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .box2 {
+        margin-bottom: 50%;
+    }
+
+    .box3 {
+        margin-bottom: 50%;
+    }
+
+    .box3 .paragraphBox3 .paragraph3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .imgsBox3 {
+        display: none;
+    }
+
+    .box4 {
+        margin-bottom: 75%;
+    }
+
+    .box5 {
+        margin-bottom: 120%;
+    }
+
+    .box3::before {
+        background-position-y: 0;
+    }
+
+    .box4::before {
+        background-position-y: 0;
+    }
+
+    .box5::before {
+        height: 173vh;
+    }
+
+    .box6::before {
+        height: 140vh;
+        background-position-y: 0;
+    }
+
+    .whatWant {
+        font-size: 2rem;
     }
 
 }
